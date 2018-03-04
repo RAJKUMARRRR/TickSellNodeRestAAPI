@@ -1,0 +1,25 @@
+{
+  "name": "ticksell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "busboy-body-parser": "^0.3.0",
+    "express": "^4.15.3",
+    "file-system": "^2.2.2",
+    "gridfs-stream": "^1.1.1",
+    "mongodb": "^2.2.30",
+    "mongoose": "^4.10.8",
+    "morgan": "^1.8.2",
+    "nodemailer": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
